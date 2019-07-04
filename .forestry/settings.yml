@@ -30,8 +30,8 @@ sections:
 upload_dir: ''
 public_path: http://mitch-forestry.imgix.net
 front_matter_path: ''
-use_front_matter_path: 
-file_template: ":filename:"
+use_front_matter_path: true
+file_template: ":filename:?text=test"
 instant_preview: true
 build:
   preview_command: hugo -E -F -D -b $DEPLOY_URL -d public
