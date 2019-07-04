@@ -28,7 +28,7 @@ sections:
   label: First Steps
   read_only: true
 upload_dir: ''
-public_path: https://forestry-tests.s3.amazonaws.com
+public_path: http://mitch-forestry.imgix.net
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
