@@ -6,3 +6,5 @@ title = "Title"
 
 +++
 Hello
+
+![](http://mitch-forestry.imgix.net/aerial-shot-architecture-bird-s-eye-view-2576111.jpg)
