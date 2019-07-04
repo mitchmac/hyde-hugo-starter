@@ -27,7 +27,7 @@ sections:
   path: FIRSTSTEPS.md
   label: First Steps
   read_only: true
-upload_dir: ''
+upload_dir: https://s3.amazonaws.com/forestry-tests
 public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
