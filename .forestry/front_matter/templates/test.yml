@@ -87,6 +87,15 @@ fields:
     source:
       type: simple
   label: Sortable
+- name: block_1
+  type: blocks
+  label: Block 1
+  template_types:
+  - block-1
+  - block-2
+  config:
+    min: 
+    max: 
 pages:
 - content/posts/lots-o-fields.md
 - content/posts/test-ref.md
