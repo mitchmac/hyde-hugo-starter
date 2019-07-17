@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/some-data.json
   label: Data file
-  match: "**/*"
 - type: document
   path: config.toml
   label: Config
