@@ -1,0 +1,35 @@
+---
+label: JSON template
+hide_body: true
+fields:
+- type: list
+  name: array
+  label: array
+- type: boolean
+  name: boolean
+  label: boolean
+- type: text
+  name: color
+  label: color
+- type: text
+  name: 'null'
+  label: 'null'
+- type: number
+  name: number
+  label: number
+- type: field_group
+  name: object
+  label: object
+  fields:
+  - type: text
+    name: a
+    label: a
+  - type: text
+    name: c
+    label: c
+  - type: text
+    name: e
+    label: e
+- type: text
+  name: string
+  label: string
