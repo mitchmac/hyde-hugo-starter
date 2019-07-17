@@ -34,4 +34,5 @@ fields:
     labelField: name
   label: Repeatable Field Group
 pages:
+- content/repeatable-field-group.md
 - content/posts/title.md
