@@ -7,12 +7,13 @@
   ],
   "boolean": true,
   "color": "#82b92c",
-  "null": null,
+  "null": "",
   "number": 123,
   "object": {
     "a": "b",
     "c": "d",
     "e": "f"
   },
-  "string": "Hello World"
+  "string": "Hello World",
+  "json_toggle": true
 }

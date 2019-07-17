@@ -36,3 +36,5 @@ fields:
 - name: json_toggle
   type: boolean
   label: json toggle
+pages:
+- content/some-data.json
