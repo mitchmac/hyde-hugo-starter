@@ -28,6 +28,18 @@ fields:
       schema:
         format: markdown
     label: Bio
+  - name: post_ref
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: posts
+        file: 
+        path: 
+    label: Post ref
   config:
     min: 
     max: 
