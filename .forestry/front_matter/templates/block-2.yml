@@ -1,4 +1,14 @@
 ---
 label: Block 2
 hide_body: true
-fields: []
+fields:
+- name: favorite_book
+  type: text
+  config:
+    required: false
+  label: Favorite Book
+- name: favorite_author
+  type: text
+  config:
+    required: false
+  label: Favorite Author
