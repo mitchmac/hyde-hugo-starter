@@ -45,6 +45,39 @@ fields:
     max: 
     labelField: name
   label: Repeatable Field Group
+- name: number
+  type: number
+  label: Number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: '0'
+    max: '200'
+    step: '5'
+- name: toggle
+  type: boolean
+  label: Toggle
+- name: date2
+  type: datetime
+  label: Date2
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: color
+  type: color
+  label: Color
+  config:
+    required: false
+    color_format: Hex
+  default: "#D23232"
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 pages:
 - content/posts/test-ref.md
 - content/repeatable-field-group.md
