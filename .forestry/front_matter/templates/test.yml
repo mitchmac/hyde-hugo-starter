@@ -78,6 +78,15 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: sortable
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+    source:
+      type: simple
+  label: Sortable
 pages:
 - content/posts/test-ref.md
 - content/repeatable-field-group.md
