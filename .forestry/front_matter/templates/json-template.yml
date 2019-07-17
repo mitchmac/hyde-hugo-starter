@@ -33,3 +33,6 @@ fields:
 - type: text
   name: string
   label: string
+- name: json_toggle
+  type: boolean
+  label: json toggle
