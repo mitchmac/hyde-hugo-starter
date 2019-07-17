@@ -1,4 +1,14 @@
 ---
 label: Block 1
 hide_body: true
-fields: []
+fields:
+- name: postal_code
+  type: text
+  config:
+    required: false
+  label: Postal Code
+- name: country
+  type: text
+  config:
+    required: false
+  label: Country
