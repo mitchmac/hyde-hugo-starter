@@ -11,5 +11,27 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: repeatable_field_group
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: bio
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Bio
+  config:
+    min: 
+    max: 
+    labelField: name
+  label: Repeatable Field Group
 pages:
 - content/posts/title.md
