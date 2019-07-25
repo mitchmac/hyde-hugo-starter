@@ -97,8 +97,8 @@ fields:
     min: 
     max: 
 pages:
-- content/posts/test-empty-blocks.md
-- content/posts/lots-o-fields.md
-- content/posts/test-ref.md
-- content/repeatable-field-group.md
 - content/posts/title.md
+- content/repeatable-field-group.md
+- content/posts/test-ref.md
+- content/posts/lots-o-fields.md
+- content/posts/test-empty-blocks.md
