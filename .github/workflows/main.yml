@@ -8,4 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: docker://jojomi/hugo version
+    - uses: docker://jojomi/hugo
+      with:
+        args: version
