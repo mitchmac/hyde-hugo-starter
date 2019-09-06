@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+    - run: ls -al
     - uses: docker://jojomi/hugo
       env:
         HUGO_ENV: production
