@@ -9,5 +9,5 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: docker://jojomi/hugo
-      with:
-        args: version
+      env:
+        HUGO_ENV: production
