@@ -1,0 +1,12 @@
+name: Build and Deploy Hugo to GCP
+
+on: push
+
+jobs:
+  build:
+    name: Build Hugo Site
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: docker://jojomi/hugo
+    - run: hugo version
