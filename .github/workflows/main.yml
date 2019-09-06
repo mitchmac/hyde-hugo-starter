@@ -11,5 +11,5 @@ jobs:
     - uses: docker://jojomi/hugo
       env:
         HUGO_ENV: production
-        HUGO_DESTINATION: /github/workspace
-    - run: ls -al
+        HUGO_DESTINATION: /github/workspace/public
+    - run: ls -al public
