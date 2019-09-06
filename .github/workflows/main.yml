@@ -11,3 +11,4 @@ jobs:
     - uses: docker://jojomi/hugo
       env:
         HUGO_ENV: production
+    - run: ls -al
